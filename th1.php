@@ -1,5 +1,12 @@
 <?php
+
  echo "xin chào";
+
+    for ($i = 0; $i < 1000; $i++) {
+        echo $i;
+        $i++;
+    }
+ ?>
 
  <!DOCTYPE html>
  <html lang="en">
@@ -10,6 +17,10 @@
      <title>Document</title>
  </head>
  <body>
+     <?php $today = date("F j, Y, g:i a"); ?>   
      <h1> bây giờ là: <?php echo date('Y-M-d h:i:s'); ?> </h1>
+
+    
  </body>
  </html>
+ 
