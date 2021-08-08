@@ -209,3 +209,6 @@ foreach ($colors as $value) {
     echo "$value <br>";
 }
 
+echo '<script language="javascript">';
+echo 'alert("message successfully sent")';
+echo '</script>';
